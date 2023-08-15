@@ -1,0 +1,573 @@
+/*once the screen size is 780px or smaller than 780 px, then we have new rules */
+@media  screen and (max-width: 500px) {
+    *{
+        max-width: 100%;
+        box-sizing: border-box;
+        /* border: 1px solid red; */
+    }
+    .bg-blue{
+       width: 100%;
+    }
+    .bg-peach{
+        width: 100%;
+    }
+    .headline{
+        font-size: 5vw;
+    }
+    .menu{
+        margin-top: 10px;
+        display: block;
+    }
+    .contact-btn{
+        display: none;
+    }
+    .nav-list{
+        display: none;
+    }
+    .primary-icon{
+        margin-top: 10px;
+    }
+    .section-flex-container{
+        flex-direction: column-reverse;
+    }
+    .prof-access-img-container{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .side-img-container img{
+        width: 100%;
+        max-width: 100%;
+    }
+    .section-flex-container{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+
+    }
+    .prof-access-container{
+        flex-direction: column;
+        align-items: center;
+
+        /* width: 100%;
+        border: 2px solid red;
+        padding-left: 0;
+        max-width: 100%; */
+    }
+
+    /* new row */
+    #About-webflow-card{
+        width: 100%;
+        max-width: 100%;
+        margin-left: 2%;
+        padding-left: 7%;
+        padding-top: 15%;
+    }
+    #About-webflow-card h1{
+        font-size: 8vw;
+        width: 90%;
+        line-height: 1.2;
+    }
+    #About-webflow-card p{
+        font-size: 4vw;
+        width: 100%;
+        /* padding-right: 100%; */
+    }
+    #About-webflow-card button{
+        padding: 5%;
+        width: 60%;
+        font-size: 3vw;
+    }
+
+    /* next row */
+    .service{
+        margin-top: 20%;
+        padding-left: 10%;
+    }
+    .service p{
+        font-size: 3vw;
+        width: 70%;
+    }
+    .service h3{
+        font-size: 8vw;
+        width: 80%;
+        line-height: 1.2;
+    }
+    .service-flex-container{
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        padding-left: 7%;
+    }
+    .service-card{
+        width: 100%;
+        max-width: 100%;
+        padding-bottom: 25%;   
+        margin-left: 5%;   
+    }
+    .service-card h2{
+        font-size: 8vw;
+    }
+    .service-card p{
+        font-size: 5vw;
+        font-weight: 300;
+    }
+
+    /* next row */
+    #video-reel-media{
+        width: 100%;
+    }
+    #video-reel-media h2{
+       font-size: 8vw;
+       width: 100%;
+       max-width: 100%;
+    }
+    #video-reel-media p{
+        font-size: 4vw;
+        max-width: 100%;
+     }
+    /* next row */
+    .stats-flex-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .stats{
+        width: 89%;
+        padding-bottom: 6%;
+    }
+    .stats h1{
+        font-size: 7vw;
+    }
+    .stats p{
+        font-size: 4vw;
+    }
+    .stats-side-cards-flex-container{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        /* margin-left: -13%; */
+    }
+    /* next row */
+    #Proj-aws-card{
+        padding-left: 0%;
+        width: 100%;
+        max-width: 100%;
+        margin-left: 10%;
+        padding-right: 0%;
+    }
+    #Proj-aws-card h5{
+        font-size: 3vw;
+    }
+    #Proj-aws-card h2{
+        font-size: 6vw;
+        line-height: 1.2;
+    }
+    #Proj-aws-card p{
+        font-size: 3vw;
+    }
+    .list-grid{
+        /* margin-left: 15%; */
+        width: 80%;
+        max-width: 100%;
+    }
+    .list-grid-item-num{
+        font-size: 6vw;
+        align-self: start;
+    }
+    .list-grid-item{
+        font-size: 4vw;
+        width: 90%;
+    }
+
+    /* next row */
+    .portfolio h1{
+        font-size: 4vw;
+    }
+    .latest-work-flex-container{
+        margin-bottom: 10%;
+    }
+    .latest-work-flex-container p{
+        font-size: 3vw;
+    }
+
+    /* next row */
+    .portfolio-flex-1st-row{
+        flex-direction: column;
+    }
+    .portfolio-flex-child{
+        width: 100%;
+        padding-bottom: 15%;
+        padding-top: 50%;
+    }
+    .portfolio-flex-child p{
+        font-size: 3vw;
+        padding: 0;
+        width: 50%;
+        padding-top: 7%;
+        padding-bottom: 7%;
+        margin-top: 10%;
+    }
+   .portfolio-flex-child h2{
+    font-size: 6vw;
+   }
+   .port-btn-div button{
+    width: 40%;
+    font-size: 3vw;
+    margin-top: 10%;
+    margin-bottom: 10%;
+   }
+
+   /* next row */
+   .hor-card{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding: 2%;
+   }
+   #child-hor-card1{
+    width: 100%;
+   }
+   #child-hor-card1 h5{
+    font-size: 3vw;
+   }
+   #child-hor-card1 h2{
+    font-size: 6vw;
+   }
+   #child-hor-card1 button{
+    width: 70%;
+    padding-top: 5%;
+    padding-bottom:5% ;
+   }
+   #child-hor-card2 p{
+    font-size: 4vw;
+    padding-top: 10%;
+   }
+   #block-img img{
+    /* padding: 60%; */
+    max-width: 100%;
+    /* width: 100vw; */
+   }
+   #About-webflow-card h4{
+    font-size: 3vw;
+   }
+   .testimonal h1{
+    margin-bottom: 10%;
+    font-size: 5vw;
+    width: 80%;
+   }
+   .review-card-row{
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1%;
+   }
+   .rating-card{
+    width: 80%;
+    /* margin-right: 5%; */
+   }
+   .rating-card p{
+    font-size: 3vw;
+    line-height: 2;
+   }
+   .see-all button{
+    padding: 3%;
+    padding-left: 2%;
+    padding-right: 6%;
+    font-size: 3vw;
+   }
+
+   .pricing{
+    margin-top: 21%;
+    padding-left: 9%;
+   }
+   .pricing h5{
+    font-size: 4vw;
+   }
+   .pricing h1{
+    font-size: 9vw;
+   }
+   .pricing-cards-container{
+    flex-direction: column;
+    align-items: center;
+   }
+   .pricing-cards{
+    padding: 9%;
+    width: 100%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-right: 9%;
+    padding-right: 16%;
+
+   }
+   .pricing-cards h5{
+    font-size: 3vw;
+   }
+   .pricing-cards h2{
+    font-size: 6vw;
+   }
+   .pricing-cards p, ul li{
+    font-size: 4vw;
+   }
+   .pricing-cards ul li{
+    line-height: 1;
+    /* list-style: none; */
+    font-size: 4vw;
+
+    margin-left: 0;
+}
+   .pricing-cards button{
+    width: 80%;
+    font-size: 3vw;
+   }
+   .freq-ask-container{
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25%;
+   }
+   .freq-ask-card {
+    width: 89%;
+   }
+   .freq-ask-card h1{
+    font-size: 8vw;
+    width: 100%;
+   }
+   .freq-ask-card p{
+    width: 100%;
+   }
+  .dig-agency{
+    width: 90%;
+    margin-top: 5%;
+  }
+  .dig-agency-child{
+    /* padding: 8%; */
+  }
+  #first-child p{
+    font-size: 4vw;
+  }
+#first-child{
+    padding-bottom: 10%;
+  }
+  .dig-agency-child h3{
+    font-size: 5vw;
+  }
+  .client-logo img{
+      display: none;
+  }
+  #client-logo-media{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 5%;
+    max-width: 100%;
+    margin-top: 13%;
+    margin-bottom: 13%;
+  }
+  #awards{
+    font-size: 8vw;
+  }
+  .awards-card-media{
+    flex-direction: column;
+    align-items: center;
+  }
+  /* .awards-card{
+    flex-direction: column;
+    font-size: 3vw;
+    width:50%;
+  } */
+  .awards-card-con{
+    display: none;
+  }
+  .awards-card-media-con{
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+  }
+  .awards-card-media{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-family);
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: center;
+  }
+  .awards-card-media img{
+    width: 100%;
+    height: 23vw;
+    background-repeat: no-repeat;
+    background-size: cover;  
+  }
+  .img-card{
+    margin-right: 5%;
+  }
+  .awards-card-media h6{
+    font-size: 4vw;
+  }
+  .awards-card-media p{
+    font-size: 3vw;
+  }
+  #blog{
+    width: 90%;
+  }
+  #blog h1{
+    font-size: 12vw;
+    width: 100%;
+  }
+  .blog-card-container{
+    flex-direction: column;
+  }
+  .blog-card img{
+    width: 90%;
+  }
+  .blog-card h4{
+    font-size: 5vw;
+    width: 90%;
+    line-height: 1.5;
+  }
+  .newsletter{
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 11%;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .newsletter h1{
+    font-size: 10vw;
+    padding-left: 8%;
+  }
+  .email{
+    width: 80%;
+    max-width: 100%;
+    margin-left: 2%;
+  }
+  .email input {
+    margin-left: 51%;
+    padding: 5%;
+    margin-right: 2%;
+  }
+  .cus-input::placeholder{
+    font-size: 2vw;
+  }
+  .email button{
+    width: 40%;
+    padding: 6%;
+    font-size: 2vw;
+  }
+  .contact-container{
+    flex-direction: column;
+  }
+  .contact-card{
+    width: 95%;
+    max-width: 100%;
+  }
+  .contact-card h2{
+    font-size: 3vw;
+  }
+  .contact{
+    width: 100%;
+    padding-top: 28%;
+    max-width: 100%;
+    /* border: 1px solid blue; */
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .contact h1{
+    font-size: 10vw;
+    max-width: 100%;
+  }
+  .cont-list{
+    padding-left: 0;
+  }
+  .contact p{
+    width: 100%;
+  }
+  .cont-list li{
+    font-size: 3vw;
+  }
+
+  .dream-project-container{
+    width: 85%;
+  }
+  .footer{
+    flex-direction: column;
+    padding-left: 30%;
+  }
+  .footer h2{
+     font-size: 4vw;
+     padding-left: 12%;
+  }
+   
+  #dig-prod-con{
+    flex-direction: column-reverse;
+    width: 100%;
+    max-width: 100%;
+  }
+  #dig-prod-card{
+     width: 80%;
+  }
+  #dig-prod-card h4{
+    font-size: 3vw;
+    max-width: 100%;
+
+  }
+  #dig-prod-card h1{
+    font-size: 10vw;
+    max-width: 100%;
+
+  }
+  #dig-prod-card p{
+    font-size: 5vw;
+    max-width: 100%;
+  }
+  #first-side-img{
+    width: 80%;
+  }
+  #ew-btn, #cont-me-btn{
+    padding: 5%;
+    font-size: 2.5vw;
+    width: 40%;
+    max-width: 100%;
+    margin-bottom: 10%;
+  }
+  #cus-web{
+    width: 90%;
+    max-width: 100%;
+  }
+  #cus-web h4{
+    font-size: 4vw;
+  }
+  #cus-web h1{
+    font-size: 10vw;
+  }
+  #cus-web p{
+    font-size: 3vw;
+  }
+  .prof-access-container{
+    width: 90%;
+    margin-left: 4.5%;
+  }
+  .prof-card, .access-card{
+    width: 100%;
+    padding-left: 12%;
+    padding-right: 17%;
+    padding-bottom: 20%;
+    margin: 1%;
+  }
+  .prof-card h2, .access-card h2{
+    font-size: 8vw;
+  }
+  .prof-card p, .access-card p{
+    font-size: 5vw;
+    width: 100%;
+  }
+  .cpy-right{
+    font-size: 3vw;
+    text-align: center;
+    width: 60%;
+    width: 50%;
+    margin-left: 26%;
+  }
+
+}

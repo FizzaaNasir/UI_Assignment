@@ -1,0 +1,117 @@
+.prof-card{
+    width: 40%;
+    height: 80%;
+    padding-left: 7%;
+    font-family: var(--font-family);
+    background-color: white;
+    border-radius: 7px;
+    align-self: flex-end;
+}
+.prof-card img{
+    width: 20%;
+    margin-top: 40px;
+}
+.prof-card h2, .access-card h2{
+    font-size: 2vw;
+}
+
+.prof-card p, .access-card p{
+    max-width: 100%;
+    width: 80%;
+    max-height: 100%;
+    font-size: 1vw;
+    color: rgba(255, 255, 255, 0.64);
+}
+.prof-card p{
+    color: rgba(57, 20, 0, 0.64);
+    line-height: var(--p-line-height);
+}
+.access-card{
+    width: 40%;
+    border: 1px solid #3A3C56;
+    align-self: flex-end;
+    padding: 3%;
+    padding-top: 8%;
+    line-height: var(--p-line-height);
+    color: white;
+}
+
+/* fourth-container elements */
+.service-card{
+    background-color: aliceblue;
+    width:30%;
+    /* border: rgba(243, 209, 191, 1); */
+}
+.service-card{
+    width: 30%;
+    padding-left: 3%;
+    padding-right: 1.5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: var(--font-family);
+    background-color: white;
+    border-radius: 3px;
+    line-height: 1.5;
+    margin: 1px;
+    /* height: 200%; */
+}
+.service-card h2{
+    font-size: 1.7vw;
+}
+.service-card p{
+    font-size: 1.2vw;
+}
+.service-card img{
+    width: 20%;
+}
+
+#sofa{
+    background-image: url('./assets//Sofa.png');   
+}
+#keyboard{
+    background-image: url('./assets/Keyboard.png');
+}
+#Work-media{
+    background-image: url('./assets/Work-media.png');
+}
+#dddone{
+    background-image: url('./assets/DDDone.png');
+}
+#abstract{
+    background-image: url('./assets/Abstract.png');
+}
+#handp{
+    background-image: url('./assets/HandP.png');
+
+}
+.portfolio-flex-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 20%;
+    padding-left: 2%;
+    padding-bottom: 8%;
+    margin: 1%;
+    padding-top: 10%; 
+    width: 10%;
+    font-family: var(--font-family);
+    color: var(--brown-color);
+}
+.portfolio-flex-child p{
+    font-size: 1vw;
+    padding: 10%;
+    border-radius: 26px;
+    background-color: rgba(255, 255, 255, 1);   
+    color: black;
+    text-align: center;
+}
+.portfolio-flex-child h2{
+    font-size: 2vw;
+    width: 100%;
+    padding-right: 50%;
+    max-width: 100%;
+    color: white;
+}
+
